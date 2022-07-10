@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trabajos_recientes_academias",
+  "info": {
+    "singularName": "trabajos-recientes-academia",
+    "pluralName": "trabajos-recientes-academias",
+    "displayName": "trabajos-recientes-academia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "autor": {
+      "type": "string"
+    },
+    "titulo_obra": {
+      "type": "string"
+    },
+    "foto_obra": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
