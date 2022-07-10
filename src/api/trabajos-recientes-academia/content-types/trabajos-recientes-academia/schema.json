@@ -4,7 +4,8 @@
   "info": {
     "singularName": "trabajos-recientes-academia",
     "pluralName": "trabajos-recientes-academias",
-    "displayName": "trabajos-recientes-academia"
+    "displayName": "galeria",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,23 @@
       "type": "string"
     },
     "foto_obra": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "academia",
+        "trabajos-personales"
       ],
-      "type": "media",
-      "multiple": false
+      "required": true
     }
   }
 }
