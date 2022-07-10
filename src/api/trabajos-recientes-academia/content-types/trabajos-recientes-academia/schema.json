@@ -33,7 +33,8 @@
       "type": "enumeration",
       "enum": [
         "academia",
-        "trabajos-personales"
+        "trabajos-personales",
+        "eventos"
       ],
       "required": true
     }
