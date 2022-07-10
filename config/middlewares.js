@@ -7,7 +7,7 @@ module.exports = [
         useDefaults: true,
         directives: {
           "conenct-src": ["'self'", "https:"],
-          "img-src": ["'self'", "data:", "blob:", "https://res.cloudinary.com/dg8rkeczb"],
+          "img-src": ["'self'", "data:", "blob:", "https://res.cloudinary.com"],
           "media-src": ["'self'", "data:", "blob:"],
           upgradeInsecureRequests: null,
         },
