@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "precio_y_horarios",
+  "info": {
+    "singularName": "precio-y-horario",
+    "pluralName": "precio-y-horarios",
+    "displayName": "precio_y_horario"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "para_quien": {
+      "type": "enumeration",
+      "enum": [
+        "niños/as",
+        "adultos/as",
+        "jóvenes"
+      ]
+    },
+    "cantidad_horas_semana": {
+      "type": "decimal"
+    },
+    "precio": {
+      "type": "decimal"
+    },
+    "horarios_posibles": {
+      "type": "richtext"
+    }
+  }
+}
